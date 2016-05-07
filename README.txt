@@ -42,4 +42,16 @@ STEPS:
 
 14º update gulp file
 
-15º
+15º make user Session control with $window.SessionStorage
+
+16º Create globalController, navController and navView
+
+17º include navUrl in Dashboard
+
+18º update gulp
+
+19º Include globalController in master blade
+
+20º declare user variable in navController
+
+21º declare links in navController

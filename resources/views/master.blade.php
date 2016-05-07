@@ -7,7 +7,7 @@
   <script>var baseUrl = "{{ url('/') }}/";</script>
 </head>
 <body>
-  <div class="container">
+  <div class="container" ng-controller="globalController">
     <div ng-view></div>
   </div>
     <script type="text/javascript" src="{{ asset('bower_components/angular/angular.min.js') }}"></script>
@@ -16,5 +16,7 @@
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/controllers.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/models.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 </body>
 </html>
